@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>WebVisualization</title>
+</head>
+
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e2e2e2;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(255, 251, 251);
+    padding: 14px 16px;
+  }
+
+  .logo{
+    background-color: #0BADA6;
+    width:125px;
+    height:100%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    float: left;
+  }
+
+  .logo h1{
+    color: white;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #EDEDED;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .Summary{
+    background-color: white;
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 45px;
+    width: 700px;
+  }
+
+  .Summary p{
+    font-size: 20px;
+  }
+
+  .Summary img{
+    width:50%;
+    height:auto;
+    float:left;
+  }
+
+  .Visualizations{
+    background-color: white;
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 45px;
+    width: 700px;
+  }
+
+  .Visualizations img{
+    width:50%;
+    height:auto;
+    float:left;
+  }
+
+  h2{
+    font-size: 45px;
+    color:#0BADA6;
+  }
+
+  h3{
+    font-size: 40px;
+    color:#0BADA6
+  }
+
+  @media(max-width: 600px){
+    .Summary{
+      float: none;
+    }
+
+    .Summary img{
+      width:25%;
+      height:auto;
+    }
+
+    .Visualizations{
+      float:none;
+    }
+
+    .Visualizations img{
+      width:25%;
+      height:auto;
+      float:left;
+    }
+  }
+
+  </style>
+  </head>
+  <body>
+  
+  <div class="navbar">
+    <div class="logo">
+      <h1>Latitude</h1>
+    </div>
+    <a href="#data.html">Data</a>
+    <a href="#compariosn.html">Comparison</a> 
+    <div class="dropdown">
+      <button class="dropbtn">Plots 
+      </button>
+      <div class="dropdown-content">
+        <a href="#temp.html">Max Temperature</a>
+        <a href="#humidity.html">Humidity</a>
+        <a href="#cloudiness.html">Cloudiness</a>
+        <a href="#wind.html">Windspeed</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="Summary">
+    <article>
+      <h2>Summary: Latitude vs. X</h2>
+      <hr>
+      <img src="Images/Fig1.png" alt="City Latitude vs. Max Temperature (01/05/17)">
+      <p>
+        The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.<br><br>
+        After assembling the dataset, we used MatplotLib to plot various aspects of weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualization created as part of the analysis as well as explanations and descriptions of any trends and correlations witnessed.
+      </p>
+    </article>
+  </div>
+  <div class="Visualizations">
+    <h3>Visualizations</h3>
+    <hr>
+    <img class="visualizations" src="Images/Fig1.png" alt="City Latitude vs. Max Temperature (01/05/17)" href="html">
+    <img class="visualizations" src="Images/Fig2.png" alt="City Latitude vs. Humidity (01/05/17)">
+    <img class="visualizations" src="Images/Fig3.png" alt="City Latitude vs. Cloudiness (01/05/17)">
+    <img class="visualizations" src="Images/Fig4.png" alt="City Latitude vs. Wind Speed (01/05/17)">
+  </div>
+</body>
+
+</html>
