@@ -175,7 +175,7 @@ h3{
 
   .graph{
     float: none;
-    width:600px;
+    width:500px;
   }
 
   .graph img{
@@ -194,6 +194,6 @@ h3{
   }
 
   .comparison div{
-    width:600px;
+    width:500px;
   }
 }
