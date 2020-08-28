@@ -190,14 +190,10 @@ h3{
   .Visualizations img{
     width:15%;
     height:auto;
-    float:left;
+    float:none;
   }
 
   .comparison div{
     width:600px;
-  }
-
-  [class*="col-"] {
-    width: 100%;
   }
 }
