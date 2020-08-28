@@ -147,6 +147,13 @@ h3{
   color:#0BADA6
 }
 
+.comparison{
+  width:75;
+  height:auto;
+  float:left;
+}
+}
+
 @media(max-width: 600px){
   .Summary{
     float: none;
@@ -175,6 +182,10 @@ h3{
   .Visualizations img{
     width:25%;
     height:auto;
+    float:left;
+  }
+
+  .comparison{
     float:left;
   }
 }
