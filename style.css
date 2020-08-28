@@ -117,6 +117,11 @@ body {
   float:left;
 }
 
+.graph{
+  position:center;
+  float:none;
+}
+
 h2{
   font-size: 45px;
   color:#0BADA6;
@@ -127,7 +132,7 @@ h3{
   color:#0BADA6
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
   .Summary{
     float: none;
     width:600px;
