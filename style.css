@@ -118,16 +118,23 @@ body {
 }
 
 .graph{
-  width:50%;
-  height:auto;
-  float:none;
+  background-color: white;
+  float: left;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 45px;
+  width: 700px;
+}
+
+.graph{
+  font-size: 20px;
 }
 
 .graph img{
-  position:center;
   width:50%;
   height:auto;
-  float:left;
+  position center;
 }
 
 h2{
@@ -147,6 +154,16 @@ h3{
   }
 
   .Summary img{
+    width:25%;
+    height:auto;
+  }
+
+  .graph{
+    float: none;
+    width:600px;
+  }
+
+  .graph img{
     width:25%;
     height:auto;
   }
