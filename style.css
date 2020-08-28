@@ -164,6 +164,12 @@ h3{
 
 .table-responsive-sm{
   background-color: white;
+  float: left;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 45px;
+  width: 700px;
 }
 
 @media (max-width: 600px) {
