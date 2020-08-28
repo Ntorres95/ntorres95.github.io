@@ -118,8 +118,16 @@ body {
 }
 
 .graph{
-  position:center;
+  width:50%;
+  height:auto;
   float:none;
+}
+
+.graph img{
+  position:center;
+  width:50%;
+  height:auto;
+  float:left;
 }
 
 h2{
