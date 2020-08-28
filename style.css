@@ -130,6 +130,7 @@ h3{
 @media(max-width: 400px){
   .Summary{
     float: none;
+    width:600px;
   }
 
   .Summary img{
