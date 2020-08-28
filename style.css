@@ -193,8 +193,7 @@ h3{
     float:left;
   }
 
-  .comparison{
+  .comparison div{
     width:600px;
-    float:none;
   }
 }
