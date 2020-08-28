@@ -11,14 +11,13 @@ body {
 
 .logo{
   background-color: #0BADA6;
-  width:130px;
+  width:150px;
   height:100%;
   padding: 5px;
   margin-left: 60px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-left: 10px;
-
+  border: 0px;
   float: left;
 }
 
