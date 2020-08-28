@@ -111,7 +111,7 @@ body {
 }
 
 .Visualizations img{
-  width:400px;
+  width:50%;
   height:auto;
   float:left;
 }
@@ -188,7 +188,7 @@ h3{
   }
 
   .Visualizations img{
-    width:200px;
+    width:50px;
     height:auto;
     float:left;
   }
