@@ -148,6 +148,16 @@ h3{
 }
 
 .comparison{
+  background-color: white;
+  float: left;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 45px;
+  width: 700px;
+}
+
+.comparison img{
   width:75;
   height:auto;
   float:left;
