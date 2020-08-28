@@ -162,7 +162,7 @@ h3{
   float:left;
 }
 
-@media(max-width: 600px){
+@media (max-width: 600px) {
   .Summary{
     float: none;
     width:600px;
